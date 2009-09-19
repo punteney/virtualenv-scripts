@@ -1,2 +1,11 @@
-Basic scripts I use for in conjunction with virtualenvwrapper to setup
+Basic scripts I use in conjunction with virtualenvwrapper to setup
 my working environments.
+
+These scripts assume your virtualenvs are in ~/.virtualenvs and
+that your project folders are at ~/projects/ and named the same
+as the virtualenv you create.
+
+To use the scripts just download them and run the install.sh 
+script which will link the scripts or else just copy the scripts
+directly into the ~/.virtualenvs folder
+
