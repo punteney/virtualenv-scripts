@@ -1,0 +1,2 @@
+proj_name=$(echo $VIRTUAL_ENV|awk -F'/' '{print $NF}')
+cd ~/projects/$proj_name

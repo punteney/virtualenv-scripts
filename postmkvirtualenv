@@ -1,0 +1,5 @@
+easy_install pip
+proj_name=$(echo $VIRTUAL_ENV|awk -F'/' '{print $NF}')
+mkdir $HOME/projects/$proj_name
+add2virtualenv $HOME/projects/$proj_name
+cd $HOME/projects/$proj_name
