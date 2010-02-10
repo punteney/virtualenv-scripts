@@ -1,2 +1,4 @@
-proj_name="`basename \"$VIRTUAL_ENV\"`"
+proj_name=${VIRTUAL_ENV##*/}
 cd $HOME/projects/$proj_name
+PATH=$PATH:$HOME/projects/$proj_name/bin
+export PATH
