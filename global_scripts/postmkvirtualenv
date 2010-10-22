@@ -1,4 +1,3 @@
 proj_name=${VIRTUAL_ENV##*/}
 mkdir $HOME/projects/$proj_name
-add2virtualenv $HOME/projects/$proj_name
 cd $HOME/projects/$proj_name
